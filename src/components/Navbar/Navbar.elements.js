@@ -1,10 +1,10 @@
 import styled from "styled-components";
-import { DiVim } from "react-icons/di";
 import { Link } from "react-router-dom";
 import { Container } from "../../globalStyles";
+import NavImage from "../../images/navlogo.png";
 
 export const Nav = styled.nav`
-  background: #101522;
+  background: #161616;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -23,19 +23,14 @@ export const NavbarContainer = styled(Container)`
   ${Container}
 `;
 
-export const NavLogo = styled(Link)`
-  color: #fff;
-  justify-self: flex-start;
-  cursor: pointer;
-  text-decoration: none;
-  font-size: 2rem;
-  display: flex;
-  align-items: center;
-`;
-
-export const NavIcon = styled(DiVim)`
-  margin-right: 0.5rem;
-  font-size: 40px;
+export const NavLogo = styled.li`
+  background-image: url(${NavImage});
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
 `;
 
 export const MobileIcon = styled.div`
@@ -65,10 +60,10 @@ export const NavMenu = styled.ul`
     height: 90vh;
     position: absolute;
     top: 80px;
-    left: ${({ click }) => (click ? 0 : "-100%")};
+    right: ${({ click }) => (click ? 0 : "-100%")};
     opacity: 1;
     transition: all 0.5s ease;
-    background: #101522;
+    background: #161616;
   }
 `;
 
@@ -77,7 +72,7 @@ export const NavItem = styled.li`
   border-bottom: 2px solid transparent;
 
   &:hover {
-    border-bottom: 2px solid #4b59f7;
+    border-bottom: 2px solid #13ba9f;
   }
 
   @media screen and (max-width: 960px) {
@@ -114,7 +109,7 @@ export const NavLinks = styled(Link)`
     display: table;
 
     &:hover {
-      color: #4b59f7;
+      color: #13ba9f;
       transition: all 0.3s ease;
     }
   }
