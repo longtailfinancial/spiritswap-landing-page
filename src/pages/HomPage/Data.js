@@ -6,17 +6,17 @@ import logoFour from "../../images/svg-4.svg";
 export const homeObjOne = {
   primary: true,
   lightBg: false,
-  topLine: "Hackable and Opensource",
+  topLine: "Financial Self-Determination",
   lightTopLine: true,
   lightText: true,
   lightTextDesc: true,
-  buttonLabel: "Installation",
-  headline: "So much more than everyother vim plugin manager",
+  buttonLabel: "Read More",
+  headline: "Leapfrogging colonial systems",
   description:
-    "Finally, you can efficiently manage your Vim plugins. Search, Install, Update, and Remove plugins or colorschemes from the command line. VimDiesel development is in early Alpha",
+    "Spirit Foundation is developing open source, decentralized systems designed for indigenous people, communities, and businesses.",
   imgStart: "",
   logo: logoOne,
-  alt: "vim diesel package manager",
+  alt: "Spirit Foundation",
   start: "false",
 };
 
@@ -27,32 +27,32 @@ export const homeObjTwo = {
   lightTopLine: false,
   lightText: false,
   lightTextDesc: false,
-  buttonLabel: "Check Out The Code",
+  buttonLabel: "Spirit Foundation",
   headline:
-    "Diesel leverages the new built-in package system in Vim for loading, and Git for fetching plugins and version control",
+    "Spirit Foundation is a decentralized network",
   description:
-    "There are two pieces of the VimDiesel architecture. The read-only vim-diesel-api that finds a stores plugins and plugin metadata from Github and vim.org, and the asynchronous vim-diesel-cli which connects to the api and allows the user a robust interface into the world of vim packages",
+    "Anyone can join Spirit Foundation. Join the conversation on discord or see what we are building on github.",
   imgStart: "start",
   logo: logoTwo,
-  alt: "vim diesel package manager",
+  alt: "Spirit Foundation",
   start: "true",
 };
 
 export const homeObjThree = {
   primary: true,
   lightBg: false,
-  topLine: "$ diesel install NerdTree",
+  topLine: "Spirit Coin and Spirit Swap",
   lightTopLine: true,
   lightText: true,
   lightTextDesc: true,
-  buttonLabel: "Installation",
+  buttonLabel: "Read the whitepaper",
   headline:
-    "A Vim plugin management system akin to any other popular package manager you have ever used",
+    "Community Collateral Pool",
   description:
-    "Finally, you can efficiently manage your Vim plugins. Search, Install, Update, and Remove plugins or colorschemes from the command line.",
+    "The Spirit Swap Ecosystem is a decentralized revenue generator that continuously fills a community collateral pool that can be used by indigenous individuals, businesses, and communities to access loans.",
   imgStart: "",
   logo: logoThree,
-  alt: "vim diesel package manager",
+  alt: "Spirit Foundation",
   start: "",
 };
 
@@ -63,13 +63,13 @@ export const homeObjFour = {
   lightTopLine: false,
   lightText: false,
   lightTextDesc: false,
-  buttonLabel: "Open An Issue",
+  buttonLabel: "Spirit Foundation",
   headline:
-    "Are you a programmer? Git wizard? Have a good idea for a feature? Found a bug?",
+    "Do you want better financial options for your community?",
   description:
-    "The vim-diesel-api and cli are both written in Python, and use the Django Rest Framework. If you are proficient in any of these technolgies please consider contributing",
+    "Get in touch with us to discuss how we can build sovereign wealth together!",
   imgStart: "start",
   logo: logoFour,
-  alt: "vim diesel package manager",
+  alt: "Spirit Foundation",
   start: "true",
 };
